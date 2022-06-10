@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #50c878;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myproject.ChooseTimeController">
+    <children>
+        <AnchorPane layoutY="84.0" prefHeight="485.0" prefWidth="700.0" style="-fx-background-color: #fafafa; -fx-border-color: #bcbcbc; -fx-border-radius: 5;">
+            <children>
+                <ChoiceBox fx:id="timeList" layoutX="270.0" layoutY="137.0" prefWidth="150.0" />
+                <Label layoutX="306.0" layoutY="103.0" text="Choose a time:" />
+                <Button fx:id="chooseButton" layoutX="317.0" layoutY="173.0" mnemonicParsing="false" text="Choose" />
+                <Label fx:id="labelRouteDeleted" layoutX="312.0" layoutY="243.0" text="Route deleted" textFill="RED" visible="false" />
+            </children></AnchorPane>
+        <Label layoutX="265.0" layoutY="27.0" text="TRAIN TICKETS" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Sans Serif" size="22.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="634.0" layoutY="15.0" mnemonicParsing="false" text="BACK" />
+    </children>
+</AnchorPane>

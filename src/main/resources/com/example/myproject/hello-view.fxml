@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #50c878;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myproject.HelloController">
+   <children>
+      <AnchorPane layoutY="84.0" prefHeight="485.0" prefWidth="700.0" style="-fx-background-color: #fafafa; -fx-border-color: #bcbcbc; -fx-border-radius: 5;">
+         <children>
+            <ImageView fitHeight="585.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/helloview.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="SignInButton" layoutX="257.0" layoutY="131.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="186.0" style="-fx-border-radius: 25;" text="SIGN IN" textFill="BLUE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="SignUpButton" layoutX="257.0" layoutY="201.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="186.0" style="-fx-border-radius: 25;" text="SIGN UP" textFill="BLUE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <Label layoutX="265.0" layoutY="27.0" text="TRAIN TICKETS" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Sans Serif" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

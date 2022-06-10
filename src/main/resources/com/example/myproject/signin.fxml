@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="700.0" style="-fx-background-color: #50c878;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myproject.SignInController">
+    <children>
+        <AnchorPane layoutX="1.0" layoutY="85.0" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #fafafa; -fx-border-color: #bcbcbc; -fx-border-radius: 5;">
+            <children>
+                <TextField fx:id="login_field" layoutX="275.0" layoutY="113.0" promptText="LOGIN" style="-fx-background-color: #FAFAFA; -fx-border-color: #bcbcbc;" />
+                <PasswordField fx:id="password_field" layoutX="275.0" layoutY="152.0" promptText="PASSWORD" style="-fx-background-color: #FAFAFA; -fx-border-color: #bcbcbc;" />
+            <Button fx:id="SignInButton" layoutX="321.0" layoutY="188.0" mnemonicParsing="false" text="SIGN IN" />
+            <Label fx:id="wrongCredentials" layoutX="282.0" layoutY="84.0" text="Wrong login or password!" textFill="RED" visible="false" />
+            <Label fx:id="emptyLoginOrPassword" layoutX="275.0" layoutY="93.0" text="Login or password is empty!" textFill="RED" visible="false" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="265.0" layoutY="26.0" text="TRAIN TICKETS" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Sans Serif" size="22.0" />
+            </font>
+        </Label>
+      <Button fx:id="backButton" layoutX="628.0" layoutY="14.0" mnemonicParsing="false" text="BACK" />
+    </children>
+</AnchorPane>

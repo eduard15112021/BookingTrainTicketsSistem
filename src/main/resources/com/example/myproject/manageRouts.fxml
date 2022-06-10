@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #50c878;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myproject.ManageTicketsController">
+    <children>
+        <AnchorPane layoutY="84.0" prefHeight="485.0" prefWidth="700.0" style="-fx-background-color: #fafafa; -fx-border-color: #bcbcbc; -fx-border-radius: 5;">
+            <children>
+                <Button fx:id="addRouteButton" layoutX="92.0" layoutY="223.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="195.0" text="ADD ROUTE" />
+                <Button fx:id="deleteRouteButton" layoutX="399.0" layoutY="223.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="195.0" text="DELETE ROUTE" />
+            </children></AnchorPane>
+        <Label layoutX="265.0" layoutY="27.0" text="TRAIN TICKETS" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Sans Serif" size="22.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="634.0" layoutY="15.0" mnemonicParsing="false" text="BACK" />
+    </children>
+</AnchorPane>

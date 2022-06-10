@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="700.0" style="-fx-background-color: #50c878;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myproject.AddRouteController">
+<children>
+    <AnchorPane layoutY="84.0" prefHeight="485.0" prefWidth="700.0" style="-fx-background-color: #fafafa; -fx-border-color: #bcbcbc; -fx-border-radius: 5;">
+        <children>
+            <TextField fx:id="TitleField" layoutX="118.0" layoutY="89.0" promptText="Enter route title here..." />
+            <Text layoutX="76.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title:">
+                <font>
+                    <Font size="16.0" />
+                </font>
+            </Text>
+            <Text layoutX="74.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:">
+                <font>
+                    <Font size="16.0" />
+                </font>
+            </Text>
+            <Text layoutX="118.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From:">
+                <font>
+                    <Font size="16.0" />
+                </font>
+            </Text>
+            <Text layoutX="118.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To:">
+                <font>
+                    <Font size="16.0" />
+                </font>
+            </Text>
+            <Text layoutX="67.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Times:">
+                <font>
+                    <Font size="16.0" />
+                </font>
+            </Text>
+            <Button fx:id="AddRouteButton" layoutX="136.0" layoutY="394.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="113.0" text="ADD ROUTE" />
+            <DatePicker fx:id="DateFrom" layoutX="118.0" layoutY="153.0" prefHeight="25.0" prefWidth="149.0" />
+            <DatePicker fx:id="DateTo" layoutX="118.0" layoutY="208.0" prefHeight="25.0" prefWidth="149.0" />
+            <TextField fx:id="timeStatusBox1" layoutX="118.0" layoutY="255.0" promptText="Train departure time..." />
+            <TextField fx:id="timeStatusBox2" layoutX="118.0" layoutY="295.0" promptText="Expected arrival time..." />
+            <TextField fx:id="priceform" layoutX="118.0" layoutY="348.0" promptText="Price of ticket..." />
+            <Text layoutX="78.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:">
+                <font>
+                    <Font size="16.0" />
+                </font>
+            </Text>
+
+            <Label fx:id="notAllFieldsAreFilled" layoutX="135.0" layoutY="23.0" text="Not all fields are filled" textFill="RED" visible="false" />
+            <Label fx:id="routeAddedLabel" layoutX="129.0" layoutY="444.0" text="Route added successfully!" textFill="#00ff37" visible="false" />
+            <Label fx:id="myRouteName" layoutX="461.0" layoutY="223.0" text="My Route">
+                <font>
+                    <Font size="21.0" />
+                </font>
+            </Label>
+        </children></AnchorPane>
+    <Label layoutX="265.0" layoutY="27.0" text="TRAIN TICKETS" textFill="WHITE">
+        <font>
+            <Font name="Microsoft Sans Serif" size="22.0" />
+        </font>
+    </Label>
+    <Button fx:id="backButton" layoutX="634.0" layoutY="15.0" mnemonicParsing="false" text="BACK" />
+    <Accordion />
+</children>
+</AnchorPane>

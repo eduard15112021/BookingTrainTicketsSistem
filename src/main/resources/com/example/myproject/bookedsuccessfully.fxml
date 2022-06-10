@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="700.0" style="-fx-background-color: #50c878;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myproject.BookedSuccessfullyController">
+    <children>
+        <AnchorPane layoutY="84.0" prefHeight="485.0" prefWidth="700.0" style="-fx-background-color: #fafafa; -fx-border-color: #bcbcbc; -fx-border-radius: 5;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3daff" height="360.0" layoutX="115.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" width="470.0" />
+            <Label layoutX="226.0" layoutY="14.0" text="Booked Successfully!">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="141.0" layoutY="89.0" text="Username:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="144.0" layoutY="136.0" text="Route:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="144.0" layoutY="176.0" text="Date:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="144.0" layoutY="216.0" text="Time:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="144.0" layoutY="256.0" text="Count of seats:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="275.0" layoutY="335.0" prefHeight="40.0" prefWidth="131.0" text="Payed:">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="usernameCheck" layoutX="293.0" layoutY="89.0" text="username">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="titleCheck" layoutX="234.0" layoutY="136.0" text="title">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="dateCheck" layoutX="239.0" layoutY="176.0" text="date">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="timeCheck" layoutX="214.0" layoutY="216.0" text="time">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="seatsCheck" alignment="TOP_LEFT" layoutX="315.0" layoutY="256.0" prefHeight="94.0" prefWidth="254.0" text="seats">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="payedCheck" layoutX="358.0" layoutY="337.0" text="money">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="newBookingButton" layoutX="203.0" layoutY="440.0" mnemonicParsing="false" text="New booking" />
+            <Button fx:id="logOutButton" layoutX="400.0" layoutY="440.0" mnemonicParsing="false" text="Log Out" />
+         </children></AnchorPane>
+        <Label layoutX="265.0" layoutY="27.0" text="TRAIN TICKETS" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Sans Serif" size="22.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
